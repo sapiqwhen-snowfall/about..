@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Font yang menarik */
+  background: url(https://www.google.com/imgres?q=sunset&imgurl=https%3A%2F%2Fmawatu.co.id%2Fwp-content%2Fuploads%2F2024%2F07%2Fsunset-Pulau-Padar-1024x683.webp&imgrefurl=https%3A%2F%2Fmawatu.co.id%2Fblog%2Fsunset-terindah-di-indonesia%2F&docid=fyOL3TMyqI5uQM&tbnid=1xZL-bqrUTd2cM&vet=12ahUKEwi_j-W15KGKAxX4zzgGHRGVOVsQM3oECFEQAA..i&w=1024&h=683&hcb=2&ved=2ahUKEwi_j-W15KGKAxX4zzgGHRGVOVsQM3oECFEQAA) no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(74, 121, 72);
+  text-align: center; /* Agar teks di tengah */
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: justify; /* Membuat paragraf rata kanan-kiri */
+  margin: 0 auto;
+  max-width: 600px; /* Batas lebar paragraf */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+}
